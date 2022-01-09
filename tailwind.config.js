@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./public/**/*.html'],
+  content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {},
     colors: {
@@ -23,5 +23,4 @@ module.exports = {
     },
   },
   plugins: [],
-  enabled: process.env.NODE_ENV === "production",
 }
